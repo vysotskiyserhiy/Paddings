@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2A822D1022C40FA8006B9614 /* Paddings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A822D0E22C40FA8006B9614 /* Paddings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A822D1722C40FC8006B9614 /* Paddings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A822D1622C40FC8006B9614 /* Paddings.swift */; };
+		2A822D1922C414FA006B9614 /* Paddings.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2A822D1822C414F9006B9614 /* Paddings.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		2A822D0E22C40FA8006B9614 /* Paddings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Paddings.h; sourceTree = "<group>"; };
 		2A822D0F22C40FA8006B9614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A822D1622C40FC8006B9614 /* Paddings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paddings.swift; sourceTree = "<group>"; };
+		2A822D1822C414F9006B9614 /* Paddings.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = Paddings.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				2A822D1622C40FC8006B9614 /* Paddings.swift */,
+				2A822D1822C414F9006B9614 /* Paddings.podspec */,
 				2A822D0E22C40FA8006B9614 /* Paddings.h */,
 				2A822D0F22C40FA8006B9614 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A822D1922C414FA006B9614 /* Paddings.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
