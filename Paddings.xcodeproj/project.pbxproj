@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2A822D1022C40FA8006B9614 /* Paddings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A822D0E22C40FA8006B9614 /* Paddings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A822D1722C40FC8006B9614 /* Paddings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A822D1622C40FC8006B9614 /* Paddings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A822D0B22C40FA8006B9614 /* Paddings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Paddings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A822D0E22C40FA8006B9614 /* Paddings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Paddings.h; sourceTree = "<group>"; };
 		2A822D0F22C40FA8006B9614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A822D1622C40FC8006B9614 /* Paddings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paddings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		2A822D0D22C40FA8006B9614 /* Paddings */ = {
 			isa = PBXGroup;
 			children = (
+				2A822D1622C40FC8006B9614 /* Paddings.swift */,
 				2A822D0E22C40FA8006B9614 /* Paddings.h */,
 				2A822D0F22C40FA8006B9614 /* Info.plist */,
 			);
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					2A822D0A22C40FA8006B9614 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A822D1722C40FC8006B9614 /* Paddings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		2A822D1422C40FA8006B9614 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5W3SMC6NDZ;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = vysotskiyserhiy.Paddings;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		2A822D1522C40FA8006B9614 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5W3SMC6NDZ;
