@@ -1,8 +1,8 @@
 # Paddings
 
-[![Version](https://img.shields.io/cocoapods/v/ViewExtensions.svg?style=flat)](http://cocoapods.org/pods/Paddings)
-[![License](https://img.shields.io/cocoapods/l/ViewExtensions.svg?style=flat)](http://cocoapods.org/pods/Paddings)
-[![Platform](https://img.shields.io/cocoapods/p/ViewExtensions.svg?style=flat)](http://cocoapods.org/pods/Padding)
+[![Version](https://img.shields.io/cocoapods/v/Paddings.svg?style=flat)](http://cocoapods.org/pods/Paddings)
+[![License](https://img.shields.io/cocoapods/l/Paddings.svg?style=flat)](http://cocoapods.org/pods/Paddings)
+[![Platform](https://img.shields.io/cocoapods/p/Paddings.svg?style=flat)](http://cocoapods.org/pods/Paddings)
 
 
 ## Extend touches zone
